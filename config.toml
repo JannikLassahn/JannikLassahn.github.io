@@ -1,0 +1,30 @@
+baseURL = 'https://janniklassahn.com/'
+languageCode = 'en'
+title = 'Jannik Lassahn'
+theme = "hello-friend"
+paginate = 5
+
+[params]
+  contentTypeName = "posts"
+  showMenuItems = 2
+
+[languages]
+  [languages.en]
+    keywords = ""
+    copyright = " "
+    menuMore = "Show more"
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "02. Jan 2006"
+    dateFormatList = "02. Jan 2006"
+
+    [languages.en.params.logo]
+      logoHomeLink = "/"
+      logoText="Jannik Lassahn"
+      path = " "
+
+    [languages.en.menu]
