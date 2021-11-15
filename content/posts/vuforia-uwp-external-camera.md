@@ -1,6 +1,7 @@
 ---
 title: Integrating external cameras in Vuforia UWP apps
-description: A story about using unsupported cameras with Vuforia and UWP
+summary: A story about handling unsupported cameras in Vuforia using the external camera feature and UWP desktop bridge technology
+description: A story about handling unsupported cameras in Vuforia using the external camera feature and UWP desktop bridge technology
 date: "2021-11-09"
 tags:
   - vuforia

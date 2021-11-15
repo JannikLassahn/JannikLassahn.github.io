@@ -10,7 +10,6 @@ paginate = 5
 
 [languages]
   [languages.en]
-    keywords = ""
     copyright = " "
     menuMore = "Show more"
     writtenBy = "Written by"
@@ -25,6 +24,5 @@ paginate = 5
     [languages.en.params.logo]
       logoHomeLink = "/"
       logoText="Jannik Lassahn"
-      path = " "
 
     [languages.en.menu]
