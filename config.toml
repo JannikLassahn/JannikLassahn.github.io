@@ -26,3 +26,6 @@ paginate = 5
       logoText="Jannik Lassahn"
 
     [languages.en.menu]
+
+[markup.goldmark.renderer]
+      unsafe = true
