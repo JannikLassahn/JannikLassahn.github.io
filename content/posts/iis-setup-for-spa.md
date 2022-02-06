@@ -1,7 +1,7 @@
 ---
 title: IIS configuration for Single Page Apps
-summary:
-description:
+summary: A guide for setting up Internet Information Services (IIS) to serve a Single Page Application (SPA)
+description: A guide for setting up Internet Information Services (IIS) to serve a Single Page Application (SPA)
 date: "2022-02-04"
 tags:
   - IIS
