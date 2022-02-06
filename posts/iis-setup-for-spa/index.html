@@ -5,9 +5,7 @@ IIS configuration for Single Page Apps — Jannik Lassahn
 </title>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=description content="This is a short guide for setting up an Internet Information Services (IIS) site that serves a Single Page Application (SPA).
-There are three obstacles to overcome here:
- How to serve a SPA with client-side routing How to serve a non-cached, always up to date version of the SPA How to prevent IIS from shutting down automatically  Each problem will be addressed in this post, with additional information below the config.">
+<meta name=description content="A guide for setting up Internet Information Services (IIS) to serve a Single Page Application (SPA)">
 <meta name=keywords content>
 <meta name=robots content="noodp">
 <link rel=canonical href=https://janniklassahn.com/posts/iis-setup-for-spa/>
@@ -23,13 +21,9 @@ There are three obstacles to overcome here:
 <link href=https://janniklassahn.com/assets/fonts/Inter-BoldItalic.woff2 rel=preload type=font/woff2 as=font crossorigin>
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="IIS configuration for Single Page Apps">
-<meta name=twitter:description content="This is a short guide for setting up an Internet Information Services (IIS) site that serves a Single Page Application (SPA).
-There are three obstacles to overcome here:
- How to serve a SPA with client-side routing How to serve a non-cached, always up to date version of the SPA How to prevent IIS from shutting down automatically  Each problem will be addressed in this post, with additional information below the config.">
+<meta name=twitter:description content="A guide for setting up Internet Information Services (IIS) to serve a Single Page Application (SPA)">
 <meta property="og:title" content="IIS configuration for Single Page Apps">
-<meta property="og:description" content="This is a short guide for setting up an Internet Information Services (IIS) site that serves a Single Page Application (SPA).
-There are three obstacles to overcome here:
- How to serve a SPA with client-side routing How to serve a non-cached, always up to date version of the SPA How to prevent IIS from shutting down automatically  Each problem will be addressed in this post, with additional information below the config.">
+<meta property="og:description" content="A guide for setting up Internet Information Services (IIS) to serve a Single Page Application (SPA)">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://janniklassahn.com/posts/iis-setup-for-spa/"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2022-02-04T00:00:00+00:00">
@@ -73,8 +67,8 @@ There are three obstacles to overcome here:
 </ol>
 <p>Each problem will be addressed in this post, with additional information below the config. Here&rsquo;s the final web.config we will create:</p>
 <div class=collapsable-code>
-<input id=481792536 type=checkbox checked>
-<label for=481792536>
+<input id=594827136 type=checkbox checked>
+<label for=594827136>
 <span class=collapsable-code__language>xml</span>
 <span class=collapsable-code__title>web.config</span>
 <span class=collapsable-code__toggle data-label-expand=Show data-label-collapse=Hide></span>
